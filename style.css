@@ -1,0 +1,123 @@
+* {
+box-sizing: border-box;    
+}
+.nav{
+min-height: 40px;
+background-color: #000;
+text-align: center;
+padding: 10px;
+font-weight: 600;
+}
+
+
+body {
+margin: 0;
+padding: 0;
+    font-family: 'roboto' sans-serif;
+}
+
+
+.menu {
+display: flex;
+flex-flow: row;
+color: #fff;
+list-style-type: none;
+margin: auto;
+padding: 0;
+justify-content: space-around;
+}
+
+
+a {
+text-decoration: none;
+color: #0499ff;
+}
+
+
+.name {
+display: block;
+margin-right: auto;
+}
+
+
+.menu li {
+padding: 10px;    
+}
+
+
+header {
+padding-top: 40px;
+width: 100%;
+background-image: url('https://placeimg.com/1000/400/any');
+background-size: cover;
+height: 400px;
+text-align: center;
+}
+
+header img{
+border-radius: 50%;
+border: 2px solid #000;
+transition: all .5s;
+}
+
+
+header img:hover{
+transform: scale(1.2) rotate(5deg);
+}
+
+.tag{
+background-color: #fff;
+display: table;
+margin: 10px auto;
+padding: 10px;
+border-radius: 10px;    
+}
+
+
+.sub-title{
+background-color: black;
+color:  yellow;
+}
+
+
+.content{
+display: flex;
+flex-flow: row;
+margin: 0 auto;
+justify-content: space-around;
+}
+
+
+.card{
+max-width: 500px; 
+margin: 10px;
+padding: 50px;
+
+border-bottom: 3px solid grey;
+border-radius: 5px;
+}
+
+
+.tag-list{
+ display: flex;
+flex-flow: row;
+list-style-type: none;
+    color: #fff;
+}
+
+
+.tag-yellow{
+background-color: #ff9904;
+}
+
+
+.tag-blue{
+background-color: #0399ff;
+}
+
+
+
+footer{
+text-align: center;
+padding: 60px;
+}
