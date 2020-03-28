@@ -3,7 +3,7 @@ box-sizing: border-box;
 }
 .nav{
 min-height: 40px;
-background-color: #000;
+background-color: #4B4453;
 text-align: center;
 padding: 10px;
 font-weight: 600;
@@ -13,14 +13,14 @@ font-weight: 600;
 body {
 margin: 0;
 padding: 0;
-    font-family: 'roboto' sans-serif;
+font-family: 'roboto' sans-serif;
 }
 
 
 .menu {
 display: flex;
 flex-flow: row;
-color: #fff;
+color: #03cffc;
 list-style-type: none;
 margin: auto;
 padding: 0;
@@ -30,9 +30,14 @@ justify-content: space-around;
 
 a {
 text-decoration: none;
-color: #0499ff;
+color: #03cffc;
+transition: all .4s;
 }
 
+
+a:hover{
+color: #d4d4d4;
+}
 
 .name {
 display: block;
@@ -54,6 +59,7 @@ height: 400px;
 text-align: center;
 }
 
+
 header img{
 border-radius: 50%;
 border: 2px solid #000;
@@ -62,21 +68,24 @@ transition: all .5s;
 
 
 header img:hover{
-transform: scale(1.2) rotate(5deg);
+transform: scale(1.2) rotate(3deg);
 }
 
+
+
 .tag{
-background-color: #fff;
+background-color: #d4d4d4;   
 display: table;
-margin: 10px auto;
+margin: 18px auto;
 padding: 10px;
-border-radius: 10px;    
+border-radius: 10px;
 }
+
 
 
 .sub-title{
-background-color: black;
-color:  yellow;
+background-color: #d4d4d4;
+color: black;
 }
 
 
@@ -108,16 +117,33 @@ list-style-type: none;
 
 .tag-yellow{
 background-color: #ff9904;
+font-family: sans-serif;
 }
 
 
 .tag-blue{
 background-color: #0399ff;
+font-family: sans-serif;
 }
-
 
 
 footer{
 text-align: center;
 padding: 60px;
+}
+
+
+p {
+font-size: 25px;
+font-family: sans-serif;
+}
+
+
+div{
+background-color: #e8ebe9;
+}
+
+
+footer{
+background-color: #e8ebe9;
 }
